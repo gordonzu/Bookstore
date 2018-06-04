@@ -1,0 +1,30 @@
+insert into CATEGORY (CATEGORY_DESCRIPTION) values ('Clojure');
+insert into CATEGORY (CATEGORY_DESCRIPTION) values ('Groovy');
+insert into CATEGORY (CATEGORY_DESCRIPTION) values ('Java');
+insert into CATEGORY (CATEGORY_DESCRIPTION) values ('Scala');
+
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (1, 'Practical Clojure', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (2, 'Beginning Groovy, Grails and Griffon', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (2, 'Definitive GuIDe to Grails 2', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (2, 'Groovy and Grails Recipes', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Modern Java Web Development', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Java 7 Recipes', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Java EE 7 Recipes', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Beginning Java 7', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Pro Java 7 NIO.2', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Java 7 For Absolute Beginners', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (3, 'Oracle Certified Java EE 7 Enterprise Architect', 'Apress');
+insert into BOOK (CATEGORY_ID, BOOK_TITLE, PUBLISHER) values (4, 'Beginning Scala', 'Apress');
+
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (1, 'Luke', 'Vanderhaart');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (2, 'Vishal', 'Layka');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (3, 'Jeff', 'Brown');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (4, 'Bashar', 'Jawad');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (5, 'Vishal', 'Layka');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (6, 'Josh', 'Juneau');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (7, 'Josh', 'Juneau');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (8, 'Jeff', 'Friesen');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (9, 'Anghel', 'Leonard');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (10, 'Jay', 'Bryant');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (11, 'BV', 'Kumar');
+insert into AUTHOR (BOOK_ID, FIRST_NAME, LAST_NAME) values (12, 'DavID', 'Pollak');
